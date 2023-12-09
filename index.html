@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        .foot{
+            text-align: center;
+            background-color: rgb(2, 2, 39);
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .btn1{
+            background-color: rgb(2, 2, 39);
+            color: white;
+            border: 2px solid white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .btn2{
+            background-color: rgb(2, 2, 39);
+            color: white;
+            border: 2px solid white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .btn1, .btn2 {
+    background-color: rgb(2, 2, 39);
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer; /* Add this to change cursor on hover */
+}
+
+.btn1:hover, .btn2:hover {
+    background-color: white;
+    color: rgb(2, 2, 39);
+}
+
+.buttons{
+    margin-top: 30px;
+}
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="left">
+                My Portfolio
+                
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="pastprojects.html">Past Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="a">
+            <div class="leftside">Hi this is <span class="name">Shreyas</span> from Class 5F <br>
+                <span id="element"></span>
+                <div class="buttons">
+                    <div class="buttons">
+                        <a href="https://www.linkedin.com/in/shreyas-sridhar-3a1706200/" target="_blank">
+                            <button class="btn1">
+                                LinkedIn profile
+                            </button>
+                        </a>
+                        <a href="https://github.com/shreyas-sridhar" target="_blank">
+                            <button class="btn2">
+                                <p>Github Profile</p>
+                            </button>
+                        </a>
+                    </div>
+                    
+                </div>
+             </div>
+
+                
+            
+            <div class="rightside"><img src="new2.png" alt="developer guy" height="400px">
+            </div>
+        </section>
+    </main>
+        <footer class="foot">
+            <p>&copy; 2023 Shreyas. All rights reserved.</p>
+        </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>hello</i> .', 'This is my portfolio.','<strong>Shreyas Sridhar</strong>'],
+          typeSpeed: 100,
+        });
+      </script>
+    
+</body>
+</html>

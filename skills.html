@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .skills {
+            padding: 5px;
+            text-align: center;
+        }
+
+        .skill {
+            margin: 10px 0;
+        }
+
+        .skill h3 {
+            font-size: 1rem;
+            margin-bottom: 1px;
+        }
+
+        .skill p {
+            font-size: 1.2rem;
+        }
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            /* padding: 100 10%; */
+            height: 80px;
+            /* margin-top: 1px; */
+            background-color: rgb(2, 2, 39);
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-around;
+        }
+        nav ul li{
+            list-style: none;
+            padding: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            /* padding: 0 23px; */
+        }
+        nav ul li a:hover{
+            text-decoration: underline;
+            color: royalblue;
+            /* padding: 0 23px; */
+        }
+        .left {
+            width: 50%;
+            float: left;
+        }
+        .b {
+            font-size: 11px;
+            font-family: 'Hedvig Letters Sans', sans-serif;
+            text-align: center;
+            margin-top: 1px;
+        }
+        .right {
+            float: right;
+        }
+        img {
+            width: 78px; /* Adjust the width as needed */
+            height: auto;
+            margin: 0 200px; /* Add margin for spacing */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                My Portfolio
+                
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="pastprojects.html">Past Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<main> 
+    <div class="left">
+        <section class="skills"> 
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Proficient in creating structured and semantic markup for web pages.</p>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Skilled in styling web pages with CSS for a visually appealing and responsive design.</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Experience in building interactive and dynamic web pages using JavaScript.</p>
+            </div>
+            <div class="skill">
+                <h3>Python</h3>
+                <p>Proficient in Python programming for ML.</p>
+            </div>
+            <div class="skill">
+                <h3>MySQL</h3>
+                <p>Knowledge in designing and managing relational databases with MySQL.</p>
+            </div>
+        </section>
+    </div>
+    <div class="right">
+        <img src="htmlimg.png" alt="html img" class="img">
+    </div>
+    <div class="right">
+        <img src="cssimg.png" alt="css img" class="img">
+    </div>
+    <div class="right">
+        <img src="jsimg.png" alt="html img" class="img">
+    </div>
+    <div class="right">
+        <img src="pyimg.png" alt="html img" class="img">
+    </div>
+    <div class="right">
+        <img src="sqlimg.png" alt="html img" class="img">
+    </div>
+</div>
+</div>
+</div>
+</main>
+</body>
+</html>
